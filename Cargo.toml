@@ -2,5 +2,11 @@
 name = "more-itertools-rs"
 version = "0.1.0"
 edition = "2024"
+description = "A Rust implementation of Python's more-itertools - leveraging the new `gen` keyword introduced in Rust Edition 2024."
+license = "MIT"
+repository = "https://github.com/hayatroid/more-itertools-rs"
+
+[lib]
+name = "more_itertools"
 
 [dependencies]
